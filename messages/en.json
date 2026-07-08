@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "home": {
+      "title": "Freelance Web Developer | Custom Websites, E-commerce & Web Apps",
+      "description": "Premium web development studio: showcase websites, e-commerce stores and modern web applications, fast and SEO-optimized. Get your free quote."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "team": "Our Team",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "cta": "Start a project"
+  },
+  "hero": {
+    "badge": "Available for new projects",
+    "title": "Websites that help",
+    "titleHighlight": "your business grow",
+    "subtitle": "I design and build custom showcase websites, online stores and web applications — fast, elegant and built to convert.",
+    "ctaPrimary": "Start my project",
+    "ctaSecondary": "View portfolio",
+    "stats": {
+      "projects": "Projects delivered",
+      "satisfaction": "Happy clients",
+      "experience": "Years of experience",
+      "response": "24h response time"
+    },
+    "trustedBy": "Trusted by"
+  },
+  "footer": {
+    "tagline": "Premium web development studio for ambitious businesses.",
+    "navTitle": "Navigation",
+    "legalTitle": "Legal",
+    "legalNotice": "Legal notice",
+    "privacyPolicy": "Privacy policy",
+    "socialTitle": "Follow me",
+    "rights": "All rights reserved."
+  },
+  "languageSwitcher": {
+    "label": "Language"
+  },
+  "services": {
+    "title": "My Services",
+    "subtitle": "Comprehensive solutions for all your web development needs",
+    "items": {
+      "vitrine": {
+        "title": "Business Websites",
+        "description": "A modern, elegant website that showcases your business and builds trust from the very first visit."
+      },
+      "ecommerce": {
+        "title": "E-commerce Stores",
+        "description": "A fast and secure online store designed to help you sell your products effortlessly."
+      },
+      "webapp": {
+        "title": "Web Applications",
+        "description": "Custom web solutions to digitize and automate your business processes."
+      },
+      "refonte": {
+        "title": "Website Redesign",
+        "description": "Give your existing website a fresh look with improved design, performance, and SEO."
+      },
+      "seo": {
+        "title": "SEO",
+        "description": "Improve your Google rankings and attract more qualified customers."
+      },
+      "maintenance": {
+        "title": "Maintenance",
+        "description": "Keep your website secure, up to date, and running smoothly all year round."
+      },
+      "hosting": {
+        "title": "Hosting",
+        "description": "Reliable and high-performance hosting infrastructure for your website."
+      },
+      "performance": {
+        "title": "Performance Optimization",
+        "description": "A lightning-fast website that delivers an excellent experience on both mobile and desktop."
+      }
+    }
+  }
+}
+

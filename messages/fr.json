@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "home": {
+      "title": "Développeur Web Freelance | Sites Vitrines, E-commerce & Applications sur mesure",
+      "description": "Studio de développement web premium : sites vitrines, boutiques e-commerce et applications web modernes, rapides et optimisées SEO. Demandez votre devis gratuit."
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "team": "Notre Equipe",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "cta": "Démarrer un projet"
+  },
+  "hero": {
+    "badge": "Disponible pour de nouveaux projets",
+    "title": "Des sites web qui font",
+    "titleHighlight": "grandir votre entreprise",
+    "subtitle": "Je conçois et développe des sites vitrines, boutiques en ligne et applications web sur mesure — rapides, élégants et pensés pour convertir.",
+    "ctaPrimary": "Démarrer mon projet",
+    "ctaSecondary": "Voir le portfolio",
+    "stats": {
+      "projects": "Projets livrés",
+      "satisfaction": "Clients satisfaits",
+      "experience": "Ans d'expérience",
+      "response": "Réponse sous 24h"
+    },
+    "trustedBy": "Ils m'ont fait confiance"
+  },
+  "footer": {
+    "tagline": "Studio de développement web premium pour entreprises ambitieuses.",
+    "navTitle": "Navigation",
+    "legalTitle": "Légal",
+    "legalNotice": "Mentions légales",
+    "privacyPolicy": "Politique de confidentialité",
+    "socialTitle": "Suivez-moi",
+    "rights": "Tous droits réservés."
+  },
+  "languageSwitcher": {
+    "label": "Langue"
+  },
+  "services": {
+    "title": "Mes services",
+    "subtitle": "Des solutions complètes pour tous vos besoins web",
+    "items": {
+      "vitrine": {
+        "title": "Sites vitrines",
+        "description": "Un site élégant qui présente votre activité et inspire confiance dès la première visite."
+      },
+      "ecommerce": {
+        "title": "Boutiques e-commerce",
+        "description": "Une boutique en ligne rapide et sécurisée pour vendre vos produits sans friction."
+      },
+      "webapp": {
+        "title": "Applications web",
+        "description": "Des outils sur mesure pour digitaliser et automatiser vos processus métier."
+      },
+      "refonte": {
+        "title": "Refonte de site",
+        "description": "Modernisez un site existant : design, performance et référencement."
+      },
+      "seo": {
+        "title": "SEO",
+        "description": "Un meilleur positionnement sur Google pour attirer plus de clients qualifiés."
+      },
+      "maintenance": {
+        "title": "Maintenance",
+        "description": "Un site à jour, sécurisé et sans interruption, toute l'année."
+      },
+      "hosting": {
+        "title": "Hébergement",
+        "description": "Une infrastructure fiable et rapide pour héberger votre site."
+      },
+      "performance": {
+        "title": "Optimisation performance",
+        "description": "Un site qui charge en un clin d'œil, sur mobile comme sur desktop."
+      }
+    }
+  },
+  "whyChooseMe": {
+    "title": "Pourquoi me choisir",
+    "subtitle": "Une approche exigeante, pensée pour votre réussite",
+    "items": {
+      "quality": {
+        "title": "Code de qualité",
+        "description": "Un code propre, typé et maintenable, pensé pour évoluer avec votre activité."
+      },
+      "speed": {
+        "title": "Livraison rapide",
+        "description": "Des délais clairs et respectés, sans compromis sur la qualité."
+      },
+      "communication": {
+        "title": "Communication directe",
+        "description": "Un seul interlocuteur du premier échange à la mise en ligne, réponse sous 24h."
+      },
+      "performance": {
+        "title": "Performance garantie",
+        "description": "Des sites optimisés pour un score Lighthouse supérieur à 95."
+      }
+    }
+  },
+  "process": {
+    "title": "Mon processus de travail",
+    "subtitle": "Une méthode claire, du premier échange à la mise en ligne",
+    "steps": {
+      "analysis": {
+        "title": "Analyse",
+        "description": "Compréhension de vos besoins, de votre marché et de vos objectifs."
+      },
+      "planning": {
+        "title": "Planification",
+        "description": "Définition du périmètre, du planning et des livrables."
+      },
+      "design": {
+        "title": "Design UI/UX",
+        "description": "Maquettes et parcours utilisateur pensés pour convertir."
+      },
+      "development": {
+        "title": "Développement",
+        "description": "Intégration propre, performante et évolutive."
+      },
+      "testing": {
+        "title": "Tests",
+        "description": "Vérification sur tous les appareils et navigateurs."
+      },
+      "launch": {
+        "title": "Mise en ligne",
+        "description": "Déploiement sécurisé et configuration finale."
+      },
+      "maintenance": {
+        "title": "Maintenance",
+        "description": "Suivi, mises à jour et support après livraison."
+      }
+    }
+  },
+  "team": {
+    "title": "Notre équipe",
+    "subtitle": "Les personnes qui donneront vie à votre projet",
+    "members": {
+      "youssef": {
+        "role": "Fondateur & Développeur Full Stack"
+      }
+    }
+  },
+  "contact": {
+    "title": "Discutons de votre projet",
+    "subtitle": "Remplissez le formulaire, nous vous répondons sous 24h.",
+    "form": {
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone",
+      "company": "Société",
+      "projectType": "Type de projet",
+      "projectTypeOptions": {
+        "vitrine": "Site vitrine",
+        "ecommerce": "Boutique e-commerce",
+        "webapp": "Application web",
+        "refonte": "Refonte de site",
+        "other": "Autre"
+      },
+      "budget": "Budget estimé",
+      "budgetOptions": {
+        "small": "Moins de 2 000 €",
+        "medium": "2 000 € - 5 000 €",
+        "large": "5 000 € - 10 000 €",
+        "enterprise": "Plus de 10 000 €"
+      },
+      "message": "Votre message",
+      "submit": "Envoyer ma demande",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé ! Nous vous répondons très vite.",
+      "error": "Une erreur est survenue, réessayez ou contactez-nous directement."
+    },
+    "social": {
+      "title": "Ou contactez-nous directement"
+    }
+  }
+}
