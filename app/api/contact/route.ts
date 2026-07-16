@@ -1,15 +1,11 @@
 import { Resend } from "resend";
 import { NextResponse } from "next/server";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request: Request) {
   try {
     const body = await request.json();
     const { name, email, phone, company, projectType, budget, message } = body;
 
-    // Validation basique côté serveur : ne jamais faire confiance
-    // uniquement à la validation HTML du formulaire (contournable facilement).
     if (!name || !email || !projectType || !budget || !message) {
       return NextResponse.json(
         { error: "Champs obligatoires manquants." },
@@ -17,10 +13,14 @@ export async function POST(request: Request) {
       );
     }
 
+    // Instancié ici, pas au niveau du fichier : ne s'exécute qu'à la
+    // réception d'une vraie requête, jamais pendant `next build`.
+    const resend = new Resend(process.env.RESEND_API_KEY);
+
     await resend.emails.send({
       from: "onboarding@resend.dev",
       to: process.env.CONTACT_EMAIL as string,
-      replyTo: email, // pour pouvoir répondre directement au client depuis votre boîte mail
+      replyTo: email,
       subject: `Nouvelle demande de projet — ${name}`,
       html: `
         <h2>Nouvelle demande de contact</h2>
