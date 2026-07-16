@@ -175,5 +175,92 @@
     "social": {
       "title": "Ou contactez-nous directement"
     }
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "subtitle": "Tout ce que vous devez savoir avant de vous lancer",
+    "items": {
+      "delai": {
+        "question": "Combien de temps faut-il pour créer mon site ?",
+        "answer": "Comptez généralement 2 à 4 semaines pour un site vitrine, et 4 à 8 semaines pour une boutique e-commerce ou une application web, selon la complexité du projet."
+      },
+      "prix": {
+        "question": "Quel est le prix d'un site web ?",
+        "answer": "Le tarif dépend du type de projet et des fonctionnalités souhaitées. Contactez-moi avec les détails de votre projet pour recevoir un devis gratuit et personnalisé."
+      },
+      "maintenance": {
+        "question": "Proposez-vous un service de maintenance après la livraison ?",
+        "answer": "Oui, je propose des forfaits de maintenance mensuels incluant mises à jour, sauvegardes et corrections, ainsi qu'un support pour toute évolution future."
+      },
+      "hebergement": {
+        "question": "Prenez-vous en charge l'hébergement et le nom de domaine ?",
+        "answer": "Oui, je peux m'occuper de l'achat du nom de domaine et de la mise en place de l'hébergement, ou vous accompagner si vous préférez gérer cela vous-même."
+      },
+      "modifications": {
+        "question": "Puis-je demander des modifications après la mise en ligne ?",
+        "answer": "Bien sûr, quelques allers-retours de retouches sont inclus après la livraison. Au-delà, les modifications peuvent être facturées ou incluses dans un forfait de maintenance."
+      },
+      "seo": {
+        "question": "Mon site sera-t-il bien référencé sur Google ?",
+        "answer": "Tous les sites que je développe sont optimisés techniquement pour le SEO (vitesse, structure, métadonnées). Je peux aussi proposer un accompagnement SEO plus poussé sur demande."
+      }
+    }
+  },
+  "legal": {
+    "mentions": {
+      "metaTitle": "Mentions légales",
+      "metaDescription": "Mentions légales du site WebAgency.",
+      "title": "Mentions légales",
+      "sections": [
+        {
+          "heading": "Éditeur du site",
+          "body": "Le présent site est édité par [Votre Nom Complet], entrepreneur individuel (micro-entreprise en cours de création), domicilié à [Votre adresse]. Numéro SIRET : [à compléter dès l'immatriculation]. Contact : [votre email]."
+        },
+        {
+          "heading": "Hébergement",
+          "body": "Le site est hébergé par Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis."
+        },
+        {
+          "heading": "Propriété intellectuelle",
+          "body": "L'ensemble des contenus présents sur ce site (textes, images, code source, identité visuelle) est protégé par le droit d'auteur. Toute reproduction sans autorisation est interdite."
+        },
+        {
+          "heading": "Responsabilité",
+          "body": "L'éditeur s'efforce d'assurer l'exactitude des informations diffusées sur ce site, mais ne saurait être tenu responsable des erreurs ou omissions, ni de l'usage qui pourrait en être fait."
+        }
+      ]
+    },
+    "privacy": {
+      "metaTitle": "Politique de confidentialité",
+      "metaDescription": "Politique de confidentialité et protection des données du site WebAgency.",
+      "title": "Politique de confidentialité",
+      "sections": [
+        {
+          "heading": "Données collectées",
+          "body": "Lorsque vous utilisez le formulaire de contact, nous collectons : votre nom, votre adresse email, votre téléphone (facultatif), le nom de votre société (facultatif), et le contenu de votre message."
+        },
+        {
+          "heading": "Finalité du traitement",
+          "body": "Ces données sont utilisées exclusivement pour répondre à votre demande de contact ou de devis. Elles ne sont ni vendues, ni cédées à des tiers à des fins commerciales."
+        },
+        {
+          "heading": "Destinataires et sous-traitants",
+          "body": "Les données transitent par Resend (service d'envoi d'emails) pour vous répondre. Aucune autre entreprise tierce n'a accès à vos données."
+        },
+        {
+          "heading": "Durée de conservation",
+          "body": "Vos données sont conservées le temps nécessaire au traitement de votre demande, puis supprimées, sauf si une relation contractuelle est établie."
+        },
+        {
+          "heading": "Vos droits",
+          "body": "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour exercer ces droits, contactez-nous à [votre email]."
+        },
+        {
+          "heading": "Cookies",
+          "body": "Ce site n'utilise pas de cookies de suivi publicitaire ou analytique à ce jour."
+        }
+      ]
+    }
   }
+  
 }

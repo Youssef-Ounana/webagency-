@@ -1,14 +1,14 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { ArrowRight, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
 import { buttonVariants } from "@/components/ui/Button";
 
-const STATS_KEYS = ["projects", "satisfaction", "experience", "response"] as const;
+const STATS_KEYS = ["satisfaction", "experience", "response"] as const;
 const STATS_VALUES: Record<(typeof STATS_KEYS)[number], string> = {
-  projects: "60+",
+  
   satisfaction: "98%",
   experience: "5+",
   response: "24h",
@@ -18,6 +18,8 @@ const FAKE_CLIENTS = ["Nova", "Atlas", "Kairo", "Verdant", "Solace"];
 
 export function Hero() {
   const t = useTranslations("hero");
+  const locale = useLocale();
+
 
   return (
     <section className="relative overflow-hidden">
@@ -64,17 +66,11 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mt-10 flex flex-col items-center gap-3 sm:flex-row"
         >
-          <Link href="/contact" className={buttonVariants({ size: "lg" })}>
+          <a href={`/${locale}#contact`} className={buttonVariants({ size: "lg" })}>
             {t("ctaPrimary")}
             <ArrowRight size={18} className="rtl:rotate-180" />
-          </Link>
-          <Link
-            href="/portfolio"
-            className={buttonVariants({ variant: "outline", size: "lg" })}
-          >
-            <Sparkles size={18} />
-            {t("ctaSecondary")}
-          </Link>
+          </a>
+          
         </motion.div>
 
         <motion.div
