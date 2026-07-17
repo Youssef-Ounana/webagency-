@@ -1,24 +1,24 @@
 {
   "meta": {
     "home": {
-      "title": "Développeur Web Freelance | Sites Vitrines, E-commerce & Applications sur mesure",
+      "title": "Studio de Développement Web | Sites Vitrines, E-commerce & Applications sur mesure",
       "description": "Studio de développement web premium : sites vitrines, boutiques e-commerce et applications web modernes, rapides et optimisées SEO. Demandez votre devis gratuit."
     }
   },
   "nav": {
     "home": "Accueil",
-    "team": "Notre Equipe",
+    "team": "Notre Équipe",
     "services": "Services",
     "portfolio": "Portfolio",
     "contact": "Contact",
     "cta": "Démarrer un projet"
   },
   "hero": {
-    "badge": "Disponible pour de nouveaux projets",
+    "badge": "Disponibles pour de nouveaux projets",
     "title": "Des sites web qui font",
     "titleHighlight": "grandir votre entreprise",
-    "subtitle": "Je conçois et développe des sites vitrines, boutiques en ligne et applications web sur mesure — rapides, élégants et pensés pour convertir.",
-    "ctaPrimary": "Démarrer mon projet",
+    "subtitle": "Nous concevons et développons des sites vitrines, boutiques en ligne et applications web sur mesure — rapides, élégants et pensés pour convertir.",
+    "ctaPrimary": "Démarrer notre projet",
     "ctaSecondary": "Voir le portfolio",
     "stats": {
       "projects": "Projets livrés",
@@ -26,7 +26,7 @@
       "experience": "Ans d'expérience",
       "response": "Réponse sous 24h"
     },
-    "trustedBy": "Ils m'ont fait confiance"
+    "trustedBy": "Ils nous ont fait confiance"
   },
   "footer": {
     "tagline": "Studio de développement web premium pour entreprises ambitieuses.",
@@ -34,14 +34,14 @@
     "legalTitle": "Légal",
     "legalNotice": "Mentions légales",
     "privacyPolicy": "Politique de confidentialité",
-    "socialTitle": "Suivez-moi",
+    "socialTitle": "Suivez-nous",
     "rights": "Tous droits réservés."
   },
   "languageSwitcher": {
     "label": "Langue"
   },
   "services": {
-    "title": "Mes services",
+    "title": "Nos services",
     "subtitle": "Des solutions complètes pour tous vos besoins web",
     "items": {
       "vitrine": {
@@ -79,7 +79,7 @@
     }
   },
   "whyChooseMe": {
-    "title": "Pourquoi me choisir",
+    "title": "Pourquoi nous choisir",
     "subtitle": "Une approche exigeante, pensée pour votre réussite",
     "items": {
       "quality": {
@@ -92,7 +92,7 @@
       },
       "communication": {
         "title": "Communication directe",
-        "description": "Un seul interlocuteur du premier échange à la mise en ligne, réponse sous 24h."
+        "description": "Une équipe à votre écoute du premier échange à la mise en ligne, réponse sous 24h."
       },
       "performance": {
         "title": "Performance garantie",
@@ -101,7 +101,7 @@
     }
   },
   "process": {
-    "title": "Mon processus de travail",
+    "title": "Notre processus de travail",
     "subtitle": "Une méthode claire, du premier échange à la mise en ligne",
     "steps": {
       "analysis": {
@@ -167,7 +167,7 @@
         "enterprise": "Plus de 10 000 €"
       },
       "message": "Votre message",
-      "submit": "Envoyer ma demande",
+      "submit": "Envoyer notre demande",
       "sending": "Envoi en cours...",
       "success": "Message envoyé ! Nous vous répondons très vite.",
       "error": "Une erreur est survenue, réessayez ou contactez-nous directement."
@@ -181,28 +181,28 @@
     "subtitle": "Tout ce que vous devez savoir avant de vous lancer",
     "items": {
       "delai": {
-        "question": "Combien de temps faut-il pour créer mon site ?",
+        "question": "Combien de temps faut-il pour créer notre site ?",
         "answer": "Comptez généralement 2 à 4 semaines pour un site vitrine, et 4 à 8 semaines pour une boutique e-commerce ou une application web, selon la complexité du projet."
       },
       "prix": {
         "question": "Quel est le prix d'un site web ?",
-        "answer": "Le tarif dépend du type de projet et des fonctionnalités souhaitées. Contactez-moi avec les détails de votre projet pour recevoir un devis gratuit et personnalisé."
+        "answer": "Le tarif dépend du type de projet et des fonctionnalités souhaitées. Contactez-nous avec les détails de votre projet pour recevoir un devis gratuit et personnalisé."
       },
       "maintenance": {
         "question": "Proposez-vous un service de maintenance après la livraison ?",
-        "answer": "Oui, je propose des forfaits de maintenance mensuels incluant mises à jour, sauvegardes et corrections, ainsi qu'un support pour toute évolution future."
+        "answer": "Oui, nous proposons des forfaits de maintenance mensuels incluant mises à jour, sauvegardes et corrections, ainsi qu'un support pour toute évolution future."
       },
       "hebergement": {
         "question": "Prenez-vous en charge l'hébergement et le nom de domaine ?",
-        "answer": "Oui, je peux m'occuper de l'achat du nom de domaine et de la mise en place de l'hébergement, ou vous accompagner si vous préférez gérer cela vous-même."
+        "answer": "Oui, nous pouvons nous occuper de l'achat du nom de domaine et de la mise en place de l'hébergement, ou vous accompagner si vous préférez gérer cela vous-même."
       },
       "modifications": {
-        "question": "Puis-je demander des modifications après la mise en ligne ?",
+        "question": "Pouvons-nous demander des modifications après la mise en ligne ?",
         "answer": "Bien sûr, quelques allers-retours de retouches sont inclus après la livraison. Au-delà, les modifications peuvent être facturées ou incluses dans un forfait de maintenance."
       },
       "seo": {
-        "question": "Mon site sera-t-il bien référencé sur Google ?",
-        "answer": "Tous les sites que je développe sont optimisés techniquement pour le SEO (vitesse, structure, métadonnées). Je peux aussi proposer un accompagnement SEO plus poussé sur demande."
+        "question": "Notre site sera-t-il bien référencé sur Google ?",
+        "answer": "Tous les sites que nous développons sont optimisés techniquement pour le SEO (vitesse, structure, métadonnées). Nous pouvons aussi proposer un accompagnement SEO plus poussé sur demande."
       }
     }
   },
@@ -214,7 +214,7 @@
       "sections": [
         {
           "heading": "Éditeur du site",
-          "body": "Le présent site est édité par [Votre Nom Complet], entrepreneur individuel (micro-entreprise en cours de création), domicilié à [Votre adresse]. Numéro SIRET : [à compléter dès l'immatriculation]. Contact : [votre email]."
+          "body": "Le présent site est édité par [Votre Nom Complet ou Nom du Studio], (société / micro-entreprise en cours de création), domicilié à [Votre adresse]. Numéro SIRET : [à compléter dès l'immatriculation]. Contact : [votre email]."
         },
         {
           "heading": "Hébergement",
@@ -262,5 +262,4 @@
       ]
     }
   }
-  
 }
