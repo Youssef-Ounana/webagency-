@@ -18,15 +18,16 @@
     "title": "Des sites web qui font",
     "titleHighlight": "grandir votre entreprise",
     "subtitle": "Nous concevons et développons des sites vitrines, boutiques en ligne et applications web sur mesure — rapides, élégants et pensés pour convertir.",
-    "ctaPrimary": "Démarrer notre projet",
+    "ctaPrimary": "Démarrer votre projet",
     "ctaSecondary": "Voir le portfolio",
     "stats": {
-      "projects": "Projets livrés",
-      "satisfaction": "Clients satisfaits",
-      "experience": "Ans d'expérience",
+      "projects": "Projets réalisés",
+      "technologies": "Technologies maîtrisées",
+      "availability": "Disponibilité",
       "response": "Réponse sous 24h"
-    },
-    "trustedBy": "Ils nous ont fait confiance"
+      },
+    "availabilityValue": "Immédiate",
+    "stackTitle": "Technologies que j'utilise"
   },
   "footer": {
     "tagline": "Studio de développement web premium pour entreprises ambitieuses.",
@@ -214,7 +215,7 @@
       "sections": [
         {
           "heading": "Éditeur du site",
-          "body": "Le présent site est édité par [Votre Nom Complet ou Nom du Studio], (société / micro-entreprise en cours de création), domicilié à [Votre adresse]. Numéro SIRET : [à compléter dès l'immatriculation]. Contact : [votre email]."
+          "body": "Le présent site est édité par Youssef OUNANA, (société), domicilié à [adresse].. Contact : youssefounana@gmail.com."
         },
         {
           "heading": "Hébergement",

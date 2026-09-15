@@ -10,6 +10,6 @@ export const team: TeamMember[] = [
     slug: "youssef",
     firstName: "Youssef",
     lastName: "Ounana",
-    photo: "/images/team/youssef.jpg",
+    photo: "/images/team/youssef.jpeg",
   },
 ];

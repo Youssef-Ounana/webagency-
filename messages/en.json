@@ -18,15 +18,16 @@
     "title": "Websites that help",
     "titleHighlight": "your business grow",
     "subtitle": "We design and build custom showcase websites, online stores and web applications — fast, elegant and built to convert.",
-    "ctaPrimary": "Start our project",
+    "ctaPrimary": "Start your project",
     "ctaSecondary": "View portfolio",
     "stats": {
-      "projects": "Projects delivered",
-      "satisfaction": "Happy clients",
-      "experience": "Years of experience",
+      "projects": "Projects completed",
+      "technologies": "Technologies mastered",
+      "availability": "Availability",
       "response": "24h response time"
     },
-    "trustedBy": "Trusted by"
+    "availabilityValue": "Immediate",
+    "stackTitle": "Technologies I use"
   },
   "footer": {
     "tagline": "Premium web development studio for ambitious businesses.",
@@ -214,7 +215,7 @@
       "sections": [
         {
           "heading": "Website Publisher",
-          "body": "This website is published by [Your Full Name or Studio Name], sole proprietorship (under registration process), located at [Your Address]. SIRET Number: [to complete upon registration]. Contact: [your email]."
+          "body": "This website is published by Youssef OUNANA, sole proprietorship (under registration process), located at [Address]. Contact: youssefounana@gmail.com."
         },
         {
           "heading": "Hosting",

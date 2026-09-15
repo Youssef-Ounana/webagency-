@@ -1,25 +1,35 @@
 "use client";
 
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { ArrowRight, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
 import { buttonVariants } from "@/components/ui/Button";
 
-const STATS_KEYS = ["satisfaction", "experience", "response"] as const;
-const STATS_VALUES: Record<(typeof STATS_KEYS)[number], string> = {
-  
-  satisfaction: "98%",
-  experience: "5+",
+const STATS_KEYS = ["projects", "technologies", "availability", "response"] as const;
+
+// Valeurs neutres (chiffres/durées), qui n'ont pas besoin de traduction.
+// "availability" est un cas particulier : sa valeur est un texte, donc
+// traduite via availabilityValue dans les messages.
+const STATS_VALUES: Record<Exclude<(typeof STATS_KEYS)[number], "availability">, string> = {
+  projects: "10+",
+  technologies: "10+",
   response: "24h",
 };
 
-const FAKE_CLIENTS = ["Nova", "Atlas", "Kairo", "Verdant", "Solace"];
+// Technologies réellement utilisées sur ce site et vos projets — remplace
+// les anciens "logos clients" fictifs par quelque chose de 100% vrai.
+const TECH_STACK = [
+  "React",
+  "Next.js",
+  "TypeScript",
+  "Tailwind CSS",
+  "Node.js",
+  "Docker",
+];
 
 export function Hero() {
   const t = useTranslations("hero");
-  const locale = useLocale();
-
 
   return (
     <section className="relative overflow-hidden">
@@ -66,11 +76,10 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mt-10 flex flex-col items-center gap-3 sm:flex-row"
         >
-          <a href={`/${locale}#contact`} className={buttonVariants({ size: "lg" })}>
+          <a href="#contact" className={buttonVariants({ size: "lg" })}>
             {t("ctaPrimary")}
             <ArrowRight size={18} className="rtl:rotate-180" />
           </a>
-          
         </motion.div>
 
         <motion.div
@@ -82,7 +91,7 @@ export function Hero() {
           {STATS_KEYS.map((key) => (
             <div key={key} className="flex flex-col items-center">
               <span className="text-2xl font-semibold text-ink sm:text-3xl">
-                {STATS_VALUES[key]}
+                {key === "availability" ? t("availabilityValue") : STATS_VALUES[key]}
               </span>
               <span className="mt-1 text-center text-xs text-ink-400 sm:text-sm">
                 {t(`stats.${key}`)}
@@ -98,10 +107,10 @@ export function Hero() {
           className="mt-20 w-full"
         >
           <p className="mb-6 text-xs font-medium uppercase tracking-widest text-ink-400">
-            {t("trustedBy")}
+            {t("stackTitle")}
           </p>
           <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4 opacity-60 grayscale">
-            {FAKE_CLIENTS.map((name) => (
+            {TECH_STACK.map((name) => (
               <span
                 key={name}
                 className="text-lg font-semibold tracking-tight text-ink-600"
