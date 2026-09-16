@@ -8,6 +8,6 @@ export interface SocialLink {
 }
 
 export const socials: SocialLink[] = [
-  { icon: MessageCircle, href: "https://wa.me/33600000000", label: "WhatsApp" }, //a ajouter plus tard
+  { icon: MessageCircle, href: "https://wa.me/33752242532", label: "WhatsApp" }, //a ajouter plus tard
   { icon: Mail, href: "mailto:youssefounana@gmail.com", label: "Email" },
 ];
