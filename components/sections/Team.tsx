@@ -1,6 +1,5 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { Linkedin, Github } from "lucide-react";
 import { team } from "@/lib/data/team";
 
 export function Team() {
@@ -16,11 +15,11 @@ export function Team() {
           <p className="mt-4 text-base text-ink-400">{t("subtitle")}</p>
         </div>
 
-        <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-16 flex flex-wrap justify-center gap-8">
           {team.map((member) => (
             <div
               key={member.slug}
-              className="rounded-2xl border border-ink-100 p-6 text-center transition-shadow hover:shadow-lg"
+              className="w-full rounded-2xl border border-ink-100 p-6 text-center transition-shadow hover:shadow-lg sm:w-72"
             >
               <div className="relative mx-auto h-24 w-24 overflow-hidden rounded-full bg-ink-100">
                 <Image
@@ -35,7 +34,7 @@ export function Team() {
                 {member.firstName} {member.lastName}
               </h3>
               <p className="mt-1 text-sm text-primary-600">
-                {member.role}
+                {t(`members.${member.slug}.role`)}
               </p>
             </div>
           ))}
