@@ -1,6 +1,7 @@
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { socials } from "@/lib/data/socials";
+import { SITE } from "@/lib/site";
 
 // Comme dans le Header : "page" = vraie route, "anchor" = section de l'accueil
 const NAV_LINKS = [
@@ -25,7 +26,7 @@ export function Footer() {
       <div className="container-custom grid grid-cols-1 gap-10 py-16 sm:grid-cols-2 lg:grid-cols-4">
         <div className="lg:col-span-2">
           <span className="text-lg font-semibold tracking-tight text-ink">
-            WebAgency<span className="text-primary-500">.</span>
+            {SITE.name}<span className="text-primary-500">.</span>
           </span>
           <p className="mt-3 max-w-sm text-sm leading-relaxed text-ink-400">
             {t("tagline")}
@@ -96,7 +97,7 @@ export function Footer() {
 
       <div className="border-t border-ink-100 py-6">
         <p className="container-custom text-center text-xs text-ink-400">
-          © {year} WebAgency. {t("rights")}
+          © {year} {SITE.name}. {t("rights")}
         </p>
       </div>
     </footer>

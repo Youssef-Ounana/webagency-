@@ -1,5 +1,6 @@
 import type { LucideIcon } from "lucide-react";
 import { Mail, MessageCircle } from "lucide-react";
+import { SITE } from "@/lib/site";
 
 export interface SocialLink {
   icon: LucideIcon;
@@ -8,6 +9,6 @@ export interface SocialLink {
 }
 
 export const socials: SocialLink[] = [
-  { icon: MessageCircle, href: "https://wa.me/33752242532", label: "WhatsApp" }, //a ajouter plus tard
-  { icon: Mail, href: "mailto:youssefounana@gmail.com", label: "Email" },
+  { icon: MessageCircle, href: `https://wa.me/${SITE.whatsapp}`, label: "WhatsApp" },
+  { icon: Mail, href: `mailto:${SITE.email}`, label: "Email" },
 ];

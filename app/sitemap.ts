@@ -1,7 +1,8 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
+import { SITE } from "@/lib/site";
 
-const BASE_URL = "https://webagency-chi.vercel.app";
+const BASE_URL = SITE.url;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = ["", "/mentions-legales", "/confidentialite"];

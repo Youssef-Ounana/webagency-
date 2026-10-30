@@ -9,7 +9,6 @@
     "home": "Accueil",
     "team": "Notre Équipe",
     "services": "Services",
-    "portfolio": "Portfolio",
     "contact": "Contact",
     "cta": "Démarrer un projet"
   },
@@ -19,15 +18,13 @@
     "titleHighlight": "grandir votre entreprise",
     "subtitle": "Nous concevons et développons des sites vitrines, boutiques en ligne et applications web sur mesure — rapides, élégants et pensés pour convertir.",
     "ctaPrimary": "Démarrer votre projet",
-    "ctaSecondary": "Voir le portfolio",
     "stats": {
-      "projects": "Projets réalisés",
       "technologies": "Technologies maîtrisées",
       "availability": "Disponibilité",
       "response": "Réponse sous 24h"
-      },
+    },
     "availabilityValue": "Immédiate",
-    "stackTitle": "Technologies que j'utilise"
+    "stackTitle": "Technologies que nous utilisons"
   },
   "footer": {
     "tagline": "Studio de développement web premium pour entreprises ambitieuses.",
@@ -210,12 +207,12 @@
   "legal": {
     "mentions": {
       "metaTitle": "Mentions légales",
-      "metaDescription": "Mentions légales du site WebAgency.",
+      "metaDescription": "Mentions légales du site {siteName}.",
       "title": "Mentions légales",
       "sections": [
         {
           "heading": "Éditeur du site",
-          "body": "Le présent site est édité par Youssef OUNANA, (société), domicilié à [adresse].. Contact : youssefounana@gmail.com."
+          "body": "Le présent site est édité par Youssef Ounana, entrepreneur individuel (immatriculation en cours), Avignon, France. Contact : {email}."
         },
         {
           "heading": "Hébergement",
@@ -233,7 +230,7 @@
     },
     "privacy": {
       "metaTitle": "Politique de confidentialité",
-      "metaDescription": "Politique de confidentialité et protection des données du site WebAgency.",
+      "metaDescription": "Politique de confidentialité et protection des données du site {siteName}.",
       "title": "Politique de confidentialité",
       "sections": [
         {
@@ -254,7 +251,7 @@
         },
         {
           "heading": "Vos droits",
-          "body": "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour exercer ces droits, contactez-nous à [votre email]."
+          "body": "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour exercer ces droits, contactez-nous à {email}."
         },
         {
           "heading": "Cookies",

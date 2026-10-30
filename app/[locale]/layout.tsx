@@ -7,6 +7,7 @@ import { routing } from "@/i18n/routing";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import "../globals.css";
+import { SITE } from "@/lib/site";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -36,7 +37,7 @@ export async function generateMetadata({
   return {
     title: {
       default: t("title"),
-      template: "%s | WebAgency",
+      template: `%s | ${SITE.name}`,
     },
     description: t("description"),
     alternates: {

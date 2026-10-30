@@ -8,6 +8,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { buttonVariants } from "@/components/ui/Button";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { cn } from "@/lib/utils";
+import { SITE } from "@/lib/site";
 
 // type "page" = vraie route Next.js (a sa propre URL)
 // type "anchor" = section de la page d'accueil (on scrolle jusqu'à son id)
@@ -54,7 +55,7 @@ export function Header() {
     >
       <div className="container-custom flex h-20 items-center justify-between">
         <Link href="/" className="text-lg font-semibold tracking-tight text-ink">
-          WebAgency<span className="text-primary-500">.</span>
+          {SITE.name}<span className="text-primary-500">.</span>
         </Link>
 
         <nav className="hidden items-center gap-9 lg:flex">

@@ -1,6 +1,7 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import { LegalContent } from "@/components/sections/LegalContent";
+import { SITE, withSiteVars } from "@/lib/site";
 
 export async function generateMetadata({
   params,
@@ -11,7 +12,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "legal.privacy" });
   return {
     title: t("metaTitle"),
-    description: t("metaDescription"),
+    description: t("metaDescription", { siteName: SITE.name }),
   };
 }
 
@@ -24,7 +25,9 @@ export default async function ConfidentialitePage({
   setRequestLocale(locale);
 
   const t = await getTranslations({ locale, namespace: "legal.privacy" });
-  const sections = t.raw("sections") as { heading: string; body: string }[];
+  const sections = (t.raw("sections") as { heading: string; body: string }[]).map(
+    (s) => ({ ...s, body: withSiteVars(s.body) })
+  );
 
   return <LegalContent title={t("title")} sections={sections} />;
 }

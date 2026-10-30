@@ -6,13 +6,12 @@ import { ArrowRight, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
 import { buttonVariants } from "@/components/ui/Button";
 
-const STATS_KEYS = ["projects", "technologies", "availability", "response"] as const;
+const STATS_KEYS = ["technologies", "availability", "response"] as const;
 
 // Valeurs neutres (chiffres/durées), qui n'ont pas besoin de traduction.
 // "availability" est un cas particulier : sa valeur est un texte, donc
 // traduite via availabilityValue dans les messages.
 const STATS_VALUES: Record<Exclude<(typeof STATS_KEYS)[number], "availability">, string> = {
-  projects: "10+",
   technologies: "10+",
   response: "24h",
 };
@@ -86,7 +85,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="mt-20 grid w-full max-w-3xl grid-cols-2 gap-8 sm:grid-cols-4"
+          className="mt-20 grid w-full max-w-3xl grid-cols-3 gap-8"
         >
           {STATS_KEYS.map((key) => (
             <div key={key} className="flex flex-col items-center">

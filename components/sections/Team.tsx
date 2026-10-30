@@ -35,7 +35,7 @@ export function Team() {
                 {member.firstName} {member.lastName}
               </h3>
               <p className="mt-1 text-sm text-primary-600">
-                {t(`members.${member.slug}.role`)}
+                {member.role}
               </p>
             </div>
           ))}

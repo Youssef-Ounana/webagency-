@@ -1,7 +1,8 @@
 import { ImageResponse } from "next/og";
+import { SITE } from "@/lib/site";
 
 export const runtime = "edge";
-export const alt = "WebAgency — Développeur Web Freelance";
+export const alt = `${SITE.name} — Studio de développement web`;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -29,7 +30,7 @@ export default async function Image() {
             color: "white",
           }}
         >
-          WebAgency
+          {SITE.name}
           <span style={{ color: "#A78BFA" }}>.</span>
         </div>
 
@@ -56,7 +57,7 @@ export default async function Image() {
             color: "#93B7FD",
           }}
         >
-          Développeur Web Freelance
+          Studio de développement web
         </div>
       </div>
     ),

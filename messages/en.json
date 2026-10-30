@@ -9,7 +9,6 @@
     "home": "Home",
     "team": "Our Team",
     "services": "Services",
-    "portfolio": "Portfolio",
     "contact": "Contact",
     "cta": "Start a project"
   },
@@ -19,15 +18,13 @@
     "titleHighlight": "your business grow",
     "subtitle": "We design and build custom showcase websites, online stores and web applications — fast, elegant and built to convert.",
     "ctaPrimary": "Start your project",
-    "ctaSecondary": "View portfolio",
     "stats": {
-      "projects": "Projects completed",
       "technologies": "Technologies mastered",
       "availability": "Availability",
       "response": "24h response time"
     },
     "availabilityValue": "Immediate",
-    "stackTitle": "Technologies I use"
+    "stackTitle": "Technologies we use"
   },
   "footer": {
     "tagline": "Premium web development studio for ambitious businesses.",
@@ -210,12 +207,12 @@
   "legal": {
     "mentions": {
       "metaTitle": "Legal Notice",
-      "metaDescription": "Legal notice of the WebAgency website.",
+      "metaDescription": "Legal notice of the {siteName} website.",
       "title": "Legal Notice",
       "sections": [
         {
           "heading": "Website Publisher",
-          "body": "This website is published by Youssef OUNANA, sole proprietorship (under registration process), located at [Address]. Contact: youssefounana@gmail.com."
+          "body": "This website is published by Youssef Ounana, sole proprietorship (registration in progress), Avignon, France. Contact: {email}."
         },
         {
           "heading": "Hosting",
@@ -233,7 +230,7 @@
     },
     "privacy": {
       "metaTitle": "Privacy Policy",
-      "metaDescription": "Privacy policy and data protection of the WebAgency website.",
+      "metaDescription": "Privacy policy and data protection of the {siteName} website.",
       "title": "Privacy Policy",
       "sections": [
         {
@@ -254,7 +251,7 @@
         },
         {
           "heading": "Your Rights",
-          "body": "In accordance with GDPR, you hold the right to access, rectify, or request the erasure of your personal data. To exercise these rights, please contact us at [your email]."
+          "body": "In accordance with GDPR, you hold the right to access, rectify, or request the erasure of your personal data. To exercise these rights, please contact us at {email}."
         },
         {
           "heading": "Cookies",
